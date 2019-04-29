@@ -1,0 +1,22 @@
+{
+  "name": "fragments",
+  "version": "1.0.0",
+  "description": "A Senior Project for Elle Buellesbach",
+  "scripts": {
+    "make": "cd ../frontend && npm run build && cd ../backend && node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.17.1",
+    "mysql-ssh": "^1.0.6",
+    "mysql2": "^1.6.5",
+    "path": "^0.12.7",
+    "vue-async-computed": "^3.6.1"
+  }
+}
